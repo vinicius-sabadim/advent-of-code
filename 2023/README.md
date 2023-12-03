@@ -1,6 +1,6 @@
 # Advent of code 2023
 
-As a frontend developer, I have opted for [Rust](https://www.rust-lang.org/) as the programming language for the exercises.
+As a frontend developer, I'm not used to languages that are not JavaScript/TypeScript, so I have opted for [Rust](https://www.rust-lang.org/) as the programming language for the exercises.
 
 My aim is not to become an expert in the language but rather to explore its capabilities. Additionally, I will strive to adhere to functional programming paradigms rather than opting for imperative development.
 
