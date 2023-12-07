@@ -36,3 +36,11 @@ It looked as a medium problem to solve, but I spent too much time struggling wit
 - I have a good knowledge of [`.flat_map`](https://doc.rust-lang.org/core/iter/trait.Iterator.html#method.flat_map) but I need to study more to know exactly when to use it.
 - As the `.sum`, it's handy to have a [`.product`](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.product).
 - As `line: Option<&String>`, I got the lenght of the line as `line.as_ref().unwrap().len()`, but I wonder if there are other ways to do it.
+
+### Day 4
+
+I tried to solve the part 2 without using a vector, but going with a HashMap, made thinks confusing to me.
+
+- Study more about [`HashMap`](https://doc.rust-lang.org/std/collections/struct.HashMap.html) and learn about its methods.
+- How the get the parts in a [`.splitn`](https://doc.rust-lang.org/std/primitive.slice.html#method.splitn) without calling `.next`?
+- Learn better ways to use the `.map` without the need of `else { 0 }`.
