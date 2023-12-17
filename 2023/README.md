@@ -44,3 +44,17 @@ I tried to solve the part 2 without using a vector, but going with a HashMap, ma
 - Study more about [`HashMap`](https://doc.rust-lang.org/std/collections/struct.HashMap.html) and learn about its methods.
 - How the get the parts in a [`.splitn`](https://doc.rust-lang.org/std/primitive.slice.html#method.splitn) without calling `.next`?
 - Learn better ways to use the `.map` without the need of `else { 0 }`.
+
+### Day 5
+
+In the first part, I started with a top-down approach, going from the seed to the location.
+
+In the part 2, if I followed the same approach, I'd potentially go through billions of entries in the seeds array.
+Then, I created new functions to use the destination to get the source. Doing that, I was able to start from the location
+and go upwards until I reach the necessary seed. After that, it was a matter of checking if the seed was provided or not.
+
+- I used some brute-force for the part 2 adapting the part 1, but then I realised how much time my code was taking to run.
+- I didn't know about the [`loop`](https://doc.rust-lang.org/std/keyword.loop.html).
+- I finally learned how to do some tests in Rust :)
+- Is there a better way to structure the tests?
+- I didn't spend time to improve the functions in the utils module. I believe I can improve them.
