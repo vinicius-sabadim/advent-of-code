@@ -8,3 +8,6 @@ Last year I started to do the challenge in Rust, which was not a good decision. 
 
 It wasn't hard. For the part 1, my first solution didn't consider that values could be negative when doing list2 - list1, so then I used the Math.abs(), which solved the problem. For the part 2, my solution worked in the first time, which makes me happy.
 
+### Day 2
+
+In the part 1 the only problem that I had with my first attempt was to not converting the input to number, as they were read was string, which lead to wrong math. The part 2 was interesting, because I could refactor a lot my solution in the part 1, making the reusable function `isReportSafe`.
